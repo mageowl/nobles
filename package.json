@@ -1,0 +1,29 @@
+{
+  "name": "nobles",
+  "version": "1.0.0",
+  "description": "A simple JS card game based on classic War.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seattleowl/nobles.git"
+  },
+  "keywords": [
+    "javascript",
+    "card",
+    "game"
+  ],
+  "author": "OwL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seattleowl/nobles/issues"
+  },
+  "homepage": "https://github.com/seattleowl/nobles#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

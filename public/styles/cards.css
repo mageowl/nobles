@@ -1,0 +1,31 @@
+.card {
+    width: 130px;
+    height: 220px;
+    background-color: rgb(231, 215, 179);
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.card[type=noble] .frame {
+    border-radius: 5px;
+    box-shadow: inset rgb(88, 49, 114) 0px 0px 0px 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 130px;
+    height: 220px;
+}
+
+.card .name {
+    top: 5px;
+    position: relative;
+}
+
+.card .illustration {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
